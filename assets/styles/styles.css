@@ -1,0 +1,49 @@
+@import url(./fonts.css);
+
+#__nuxt {
+  display: flex;
+  flex-direction: column;
+}
+:root {
+  --c-black: #000;
+  --c-white: #fff;
+  --c-blue: #0584fe;
+  --c-dblue: #1253a2;
+  --c-gray: #bcbcbc;
+  --c-dgray: #8f8f8f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex: 0 1 1156px;
+  margin: 0 auto;
+}
+
+.btn {
+  background: var(--c-blue);
+  color: var(--c-white);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  &:hover {
+    outline: 1px solid var(--c-blue);
+    /* transition: 0.1s; */
+  }
+  &:active {
+    transform: translateY(2px);
+  }
+}
+
+h1 {
+  font-family: PT Sans;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 49.2px;
+}
