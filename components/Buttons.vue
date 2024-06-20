@@ -6,11 +6,7 @@
     <button class="btn">
       Проверить штрафы <img src="../assets/img/right-arrow.png" alt="arrow" />
     </button>
-    <button class="btn tube">
-      <img src="../assets/img/tube-sign.png" alt="tube" />О сервисе<span
-        >(1 мин. 20 сек.)</span
-      >
-    </button>
+    <Modal />
   </div>
   <p class="descr">
     Нажимая «Проверить штрафы» вы соглашаетесь с политикой обработки
@@ -38,26 +34,6 @@
       margin-left: 4px;
       position: relative;
       top: 2px;
-    }
-  }
-  .tube {
-    height: 45px;
-    flex: 0 1 258px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: none;
-    color: var(--c-black);
-    border: 1px solid var(--c-blue);
-    img {
-      margin-left: 4px;
-      position: relative;
-      top: 0px;
-      margin-right: 6px;
-    }
-    span {
-      color: var(--c-dblue);
-      margin-left: 6px;
     }
   }
 }

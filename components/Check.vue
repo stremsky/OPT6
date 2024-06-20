@@ -18,7 +18,7 @@
 <style lang="scss" scoped>
 .wrap {
   padding: 0 10px;
-  margin-top: 79px;
+  // margin-top: 79px;
   display: flex;
   // gap: 40px;
   // flex-wrap: wrap;
