@@ -50,8 +50,6 @@ const items = [
     id: 5,
   },
 ];
-
-console.log(items);
 </script>
 
 <template>

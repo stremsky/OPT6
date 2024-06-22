@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup>
 </script>
 
 <template>
@@ -63,6 +63,7 @@
   .region {
     grid-area: region;
     flex: 0 1 auto;
+    // margin: 0;
   }
   .registration {
     grid-area: registration;

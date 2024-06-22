@@ -13,6 +13,7 @@ const isOpen = ref(false);
       <iframe
         width="100%"
         height="500"
+        placeholder="foo"
         src="https://www.youtube.com/embed/nwknAXpOWP0"
         title="Муслим Магомаев - Вдоль по Питерской. Muslim Magomaev"
         frameborder="0"
