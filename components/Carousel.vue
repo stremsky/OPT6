@@ -58,7 +58,12 @@ const items = [
     <UCarousel
       v-slot="{ item, index }"
       :items="items"
-      :ui="{ item: 'basis-full sm:basis-1/2   md:basis-1/3 lg:basis-1/3' }"
+      :ui="{
+        indicators: {
+          active: 'bg-gray-500 dark:bg-gray-400',
+          inactive: 'bg-gray-100 dark:bg-gray-800 mix-blend-overlay',
+        },
+      }"
       class="carousel"
       :prev-button="{
         class: 'carousel-arrow-left',

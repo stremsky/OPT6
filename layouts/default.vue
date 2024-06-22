@@ -13,6 +13,7 @@
         <div class="links">
           <NuxtLink class="link p30" to="/blank">Тарифы</NuxtLink>
           <NuxtLink class="link" to="/blank">Контакты</NuxtLink>
+          <NuxtLink class="link" to="/contract">Контракт</NuxtLink>
         </div>
       </div>
       <div class="right-side">

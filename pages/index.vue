@@ -1,4 +1,7 @@
 <script lang="ts" setup>
+const appConfig = useAppConfig();
+console.log(appConfig.theme);
+
 const colorMode = useColorMode();
 const isDark = computed({
   get() {
@@ -30,6 +33,7 @@ const isDark = computed({
     <Check />
     <Pluses />
     <Carousel />
+    <Contract />
   </div>
 </template>
 
