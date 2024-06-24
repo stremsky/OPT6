@@ -31,7 +31,8 @@
 }
 
 .btn {
-  background: var(--c-blue);
+  /* background: var(--c-blue); */
+  background: brown;
   color: var(--c-white);
   border: none;
   border-radius: 7px;
